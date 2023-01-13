@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container {
+    display: flex;
+    background-color: #1F2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 15px;
+}
+
+.header-logo {
+    font-size: 48px;
+    flex: 2 1 50%;
+}
+
+.header-link-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1 1 50%;
+    font-size: 14px;
+}
