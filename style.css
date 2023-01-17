@@ -6,8 +6,8 @@
 
 .header-container {
     display: flex;
-    background-color: #1F2937;
-    color: #f9faf8;
+    background-color: #CC0000;
+    color: #FFD700;
     text-align: center;
     padding: 15px;
 }
@@ -23,4 +23,91 @@
     align-items: center;
     flex: 1 1 50%;
     font-size: 14px;
+}
+
+.second-container {
+    display: flex;
+    background-color: #CC0000;
+    color: #FFD700;
+    padding: 72px;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 50%;
+    margin-right: 10px;
+}
+
+.left-container > div {
+    padding-top: 10px;
+}
+
+.left-item-one {
+    font-size: 32px;
+}
+
+.left-item-two {
+    font-size: 14px;
+    color: #e5e7eb;
+}
+
+.right-container {
+    flex: 1 1 50%;
+    margin-left: 10px;
+}
+
+.main-image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.button {
+    background-color: #3882f6;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 8px;
+}
+
+.third-container {
+    text-align: center;
+    padding: 10px 0 10px 0;
+    font-size: 24px;
+    padding-top: 15px;
+}
+
+.subtext-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    height: 125px;
+    width: 125px;
+    border: 2px solid black;
+    margin-left: 35px;
+    border-radius: 8px;
+}
+
+.text-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.subtext {
+    height: 125px;
+    width: 125px;
+    margin-left: 35px;
+    border-radius: 8px;
+    text-align: left;
+    font-size: 12px;
+    color: rgb(36, 34, 34);
 }
